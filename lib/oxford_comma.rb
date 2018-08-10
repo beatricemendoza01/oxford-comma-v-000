@@ -1,5 +1,5 @@
 def oxford_comma(array)
-  if array.length > 2
+  if array.length != 1
     array.join(", ") << ", and #{array.pop}"
   end
   array.join
